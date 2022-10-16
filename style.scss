@@ -1,12 +1,15 @@
 * {
   margin: 0;
   padding: 0;
-
+}
+h1 {
   font-family: "Playfair Display", serif;
+}
+p {
+  font-family: "Montserrat", sans-serif;
 }
 .hero {
   padding-top: 10rem;
-
   padding-bottom: 15rem;
   background-image: linear-gradient(to right, #fa709a 0%, #ab251c 100%);
 }

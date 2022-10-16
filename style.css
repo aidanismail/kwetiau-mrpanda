@@ -1,7 +1,14 @@
 * {
   margin: 0;
   padding: 0;
+}
+
+h1 {
   font-family: "Playfair Display", serif;
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
 }
 
 .hero {
