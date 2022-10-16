@@ -11,8 +11,35 @@ p {
   font-family: "Montserrat", sans-serif;
 }
 
-.hero {
+#hero {
   padding-top: 10rem;
-  padding-bottom: 15rem;
-  background-image: linear-gradient(to right, #fa709a 0%, #ab251c 100%);
+  padding-bottom: 5rem;
+  background-image: linear-gradient(to right, #ff8daf 0%, #ab251c 100%);
+}
+
+#produk img {
+  -webkit-animation: pageOnload 2s;
+          animation: pageOnload 2s;
+}
+
+@-webkit-keyframes pageOnload {
+  from {
+    opacity: 0;
+    transform: rotateX(-30deg);
+  }
+  to {
+    opacity: 1;
+    transform: rotateX(0deg);
+  }
+}
+
+@keyframes pageOnload {
+  from {
+    opacity: 0;
+    transform: rotateX(-30deg);
+  }
+  to {
+    opacity: 1;
+    transform: rotateX(0deg);
+  }
 }/*# sourceMappingURL=style.css.map */
